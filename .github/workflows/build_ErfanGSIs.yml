@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://cfhcable.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-WEEKLY-RELEASES/20.8.6/xiaomi.eu_multi_MIMAX3_20.8.6_v12-10.zip
+  ROM_URL: https://bigota.d.miui.com/V11.0.5.0.PCBCNXM/miui_HM6A_V11.0.5.0.PCBCNXM_fb305209d9_9.0.zip
   ROM_NAME: MIUI
-  BUILD_AB: false
-  BUILD_AONLY: true
-  ROM_AONLY: MAX3_Aonly_20.8.6-eu.7z
-  ROM_AB: K20P_AB_20.7.16-eu.7z
+  BUILD_AB: true
+  BUILD_AONLY: false
+  ROM_AONLY: miui_HM6A_V11.0.5.0.PCBCNXM_fb305209d9_9.0.7z
+  ROM_AB: miui_HM6A_V11.0.5.0.PCBCNXM_fb305209d9_9.0.7z
 
 jobs:
   build:
